@@ -7,6 +7,7 @@ import com.whitewalker.ducks.DuckFactory;
 public class Main {
 
     public static void main(String[] args) {
+        //Sample demo for duck app
         Duck duck = DuckFactory.getDuck(Constants.DuckType.POND);
         duck.performAllFunctions();
         duck = DuckFactory.getDuck(Constants.DuckType.RUBBER);
